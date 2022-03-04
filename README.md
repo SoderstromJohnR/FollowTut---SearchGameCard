@@ -1,4 +1,4 @@
-# NGame
+# Game Info Card
 
 This was created following a tutorial from https://www.youtube.com/watch?v=LiOzTQAz13Q&ab_channel=freeCodeCamp.org
 
