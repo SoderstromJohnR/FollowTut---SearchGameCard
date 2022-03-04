@@ -2,28 +2,10 @@
 
 This was created following a tutorial from https://www.youtube.com/watch?v=LiOzTQAz13Q&ab_channel=freeCodeCamp.org
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
+It was one of the first tutorials I looked into for learning angular. He moved quickly and didn't explain each part as much as I would have liked, but it still helped provide some basic understanding (alongside the Tour of Heroes tutorial on the angular web site) of how components and services comes together. I also learned the basics of using the routing module for a single page application (spa). In putting this on a home server, I also learned how to change the settings to make it work properly in a subfolder instead of in the root.
 
-## Development server
+Information on the games comes from the RAWG Video Games Database, which required two api keys for both that site and rapidapi. The home page just grabs all the information it can (showing 20 cards at a time), with the option to sort based on a few attributes including creation date. Cards show game platforms but with non-standard icons, simply using a few I pulled from online.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The game search pulls up game info in some order I do not know, and unfortunately the sort function does not work properly here.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Clicking on a card switches to a details page, which queries the specific game id shown in the url.
