@@ -1,5 +1,7 @@
 # NGame
 
+This was created following a tutorial from https://www.youtube.com/watch?v=LiOzTQAz13Q&ab_channel=freeCodeCamp.org
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
 
 ## Development server
